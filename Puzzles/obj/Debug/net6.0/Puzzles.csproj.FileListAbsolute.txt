@@ -1,0 +1,15 @@
+/Users/admin/Desktop/CodingDojo/C_Sharp/Puzzles/bin/Debug/net6.0/Puzzles
+/Users/admin/Desktop/CodingDojo/C_Sharp/Puzzles/bin/Debug/net6.0/Puzzles.deps.json
+/Users/admin/Desktop/CodingDojo/C_Sharp/Puzzles/bin/Debug/net6.0/Puzzles.runtimeconfig.json
+/Users/admin/Desktop/CodingDojo/C_Sharp/Puzzles/bin/Debug/net6.0/Puzzles.dll
+/Users/admin/Desktop/CodingDojo/C_Sharp/Puzzles/bin/Debug/net6.0/ref/Puzzles.dll
+/Users/admin/Desktop/CodingDojo/C_Sharp/Puzzles/bin/Debug/net6.0/Puzzles.pdb
+/Users/admin/Desktop/CodingDojo/C_Sharp/Puzzles/obj/Debug/net6.0/Puzzles.csproj.AssemblyReference.cache
+/Users/admin/Desktop/CodingDojo/C_Sharp/Puzzles/obj/Debug/net6.0/Puzzles.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/Desktop/CodingDojo/C_Sharp/Puzzles/obj/Debug/net6.0/Puzzles.AssemblyInfoInputs.cache
+/Users/admin/Desktop/CodingDojo/C_Sharp/Puzzles/obj/Debug/net6.0/Puzzles.AssemblyInfo.cs
+/Users/admin/Desktop/CodingDojo/C_Sharp/Puzzles/obj/Debug/net6.0/Puzzles.csproj.CoreCompileInputs.cache
+/Users/admin/Desktop/CodingDojo/C_Sharp/Puzzles/obj/Debug/net6.0/Puzzles.dll
+/Users/admin/Desktop/CodingDojo/C_Sharp/Puzzles/obj/Debug/net6.0/ref/Puzzles.dll
+/Users/admin/Desktop/CodingDojo/C_Sharp/Puzzles/obj/Debug/net6.0/Puzzles.pdb
+/Users/admin/Desktop/CodingDojo/C_Sharp/Puzzles/obj/Debug/net6.0/Puzzles.genruntimeconfig.cache
