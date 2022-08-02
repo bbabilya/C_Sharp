@@ -1,0 +1,15 @@
+/Users/admin/Desktop/CodingDojo/C_Sharp/Human/obj/Debug/net6.0/Human.csproj.AssemblyReference.cache
+/Users/admin/Desktop/CodingDojo/C_Sharp/Human/obj/Debug/net6.0/Human.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/Desktop/CodingDojo/C_Sharp/Human/obj/Debug/net6.0/Human.AssemblyInfoInputs.cache
+/Users/admin/Desktop/CodingDojo/C_Sharp/Human/obj/Debug/net6.0/Human.AssemblyInfo.cs
+/Users/admin/Desktop/CodingDojo/C_Sharp/Human/obj/Debug/net6.0/Human.csproj.CoreCompileInputs.cache
+/Users/admin/Desktop/CodingDojo/C_Sharp/Human/bin/Debug/net6.0/Human
+/Users/admin/Desktop/CodingDojo/C_Sharp/Human/bin/Debug/net6.0/Human.deps.json
+/Users/admin/Desktop/CodingDojo/C_Sharp/Human/bin/Debug/net6.0/Human.runtimeconfig.json
+/Users/admin/Desktop/CodingDojo/C_Sharp/Human/bin/Debug/net6.0/Human.dll
+/Users/admin/Desktop/CodingDojo/C_Sharp/Human/bin/Debug/net6.0/ref/Human.dll
+/Users/admin/Desktop/CodingDojo/C_Sharp/Human/bin/Debug/net6.0/Human.pdb
+/Users/admin/Desktop/CodingDojo/C_Sharp/Human/obj/Debug/net6.0/Human.dll
+/Users/admin/Desktop/CodingDojo/C_Sharp/Human/obj/Debug/net6.0/ref/Human.dll
+/Users/admin/Desktop/CodingDojo/C_Sharp/Human/obj/Debug/net6.0/Human.pdb
+/Users/admin/Desktop/CodingDojo/C_Sharp/Human/obj/Debug/net6.0/Human.genruntimeconfig.cache
