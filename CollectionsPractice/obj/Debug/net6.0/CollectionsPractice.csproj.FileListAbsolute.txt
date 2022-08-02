@@ -1,0 +1,15 @@
+/Users/admin/Desktop/CodingDojo/C_Sharp/CollectionsPractice/bin/Debug/net6.0/CollectionsPractice
+/Users/admin/Desktop/CodingDojo/C_Sharp/CollectionsPractice/bin/Debug/net6.0/CollectionsPractice.deps.json
+/Users/admin/Desktop/CodingDojo/C_Sharp/CollectionsPractice/bin/Debug/net6.0/CollectionsPractice.runtimeconfig.json
+/Users/admin/Desktop/CodingDojo/C_Sharp/CollectionsPractice/bin/Debug/net6.0/CollectionsPractice.dll
+/Users/admin/Desktop/CodingDojo/C_Sharp/CollectionsPractice/bin/Debug/net6.0/ref/CollectionsPractice.dll
+/Users/admin/Desktop/CodingDojo/C_Sharp/CollectionsPractice/bin/Debug/net6.0/CollectionsPractice.pdb
+/Users/admin/Desktop/CodingDojo/C_Sharp/CollectionsPractice/obj/Debug/net6.0/CollectionsPractice.csproj.AssemblyReference.cache
+/Users/admin/Desktop/CodingDojo/C_Sharp/CollectionsPractice/obj/Debug/net6.0/CollectionsPractice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/Desktop/CodingDojo/C_Sharp/CollectionsPractice/obj/Debug/net6.0/CollectionsPractice.AssemblyInfoInputs.cache
+/Users/admin/Desktop/CodingDojo/C_Sharp/CollectionsPractice/obj/Debug/net6.0/CollectionsPractice.AssemblyInfo.cs
+/Users/admin/Desktop/CodingDojo/C_Sharp/CollectionsPractice/obj/Debug/net6.0/CollectionsPractice.csproj.CoreCompileInputs.cache
+/Users/admin/Desktop/CodingDojo/C_Sharp/CollectionsPractice/obj/Debug/net6.0/CollectionsPractice.dll
+/Users/admin/Desktop/CodingDojo/C_Sharp/CollectionsPractice/obj/Debug/net6.0/ref/CollectionsPractice.dll
+/Users/admin/Desktop/CodingDojo/C_Sharp/CollectionsPractice/obj/Debug/net6.0/CollectionsPractice.pdb
+/Users/admin/Desktop/CodingDojo/C_Sharp/CollectionsPractice/obj/Debug/net6.0/CollectionsPractice.genruntimeconfig.cache
