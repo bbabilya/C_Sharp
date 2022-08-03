@@ -1,6 +1,6 @@
 namespace Human_space;
 
-class Human
+public class Human
 {
     // Properties for Human
     public string Name;
@@ -32,8 +32,16 @@ class Human
     public int Attack(Human target)
     {
         target.Health -= (this.Strength * 5);
+        if(target.Health <= 0 )
+        {
+            Console.WriteLine("お前はもう死んでいる.... ");
+        } 
+        else
+        {
         Console.WriteLine(this.Name + " did " + this.Strength * 5 + " damage to " + target.Name + "!");
         Console.WriteLine("Feels bad, man.");
+        }
+        
         return target.Health;
     }
 
