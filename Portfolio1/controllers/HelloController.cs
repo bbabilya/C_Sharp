@@ -5,20 +5,20 @@ public class HelloController : Controller //inheritance from controller
 {
     [HttpGet] // request type
     [Route("")] // associated route string, excluding lead /
-    public string Index() //public display of a string using Index functionality
+    public ViewResult Index() //public display of a string using Index functionality
     {
-        return "Hello from HelloController!";
+        return View();
     }
 
     [HttpGet("projects")]
-    public string About()
+    public ViewResult About()
     {
-        return "These are my projects!";
+        return View();
     }
 
     [HttpGet("contact")]
-    public string FormSubmission(string formInput)
+    public ViewResult Contact()
     {
-        return "This is my contact info!";
+        return View();
     }
 }

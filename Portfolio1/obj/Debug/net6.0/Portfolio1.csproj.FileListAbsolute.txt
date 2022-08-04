@@ -19,3 +19,5 @@
 /Users/admin/Desktop/CodingDojo/C_Sharp/Portfolio1/obj/Debug/net6.0/ref/Portfolio1.dll
 /Users/admin/Desktop/CodingDojo/C_Sharp/Portfolio1/obj/Debug/net6.0/Portfolio1.pdb
 /Users/admin/Desktop/CodingDojo/C_Sharp/Portfolio1/obj/Debug/net6.0/Portfolio1.genruntimeconfig.cache
+/Users/admin/Desktop/CodingDojo/C_Sharp/Portfolio1/obj/Debug/net6.0/Portfolio1.RazorAssemblyInfo.cache
+/Users/admin/Desktop/CodingDojo/C_Sharp/Portfolio1/obj/Debug/net6.0/Portfolio1.RazorAssemblyInfo.cs
