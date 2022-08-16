@@ -1,0 +1,68 @@
+@model Dish;
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Submit a New Dish (CRUDelicious)</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+   </head>
+    <body class="bg-dark">
+        <div class="mx-auto mt-4 mb-4 w-25 text-light p-4 rounded border border-3 border-dark" style="background-color: #474747">
+            <form asp-action="DishSubmission" asp-controller="Dish" method="post">
+                <div class="Name d-flex align-items-center mt-4 mb-4">
+                    <label asp-for="Name" class="form-label me-2"></label>
+                    <div class="error d-flex flex-column">
+                        <input type="text" class="form-control" asp-for="Name"/>
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="Calories d-flex align-items-center mt-4 mb-4">
+                    <label asp-for="Calories" class="form-label me-2"></label>
+                    <div class="error d-flex flex-column">
+                        <input type="number" class="form-control" asp-for="Calories"/>
+                        <span asp-validation-for="Calories" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="Description d-flex align-items-center mt-4 mb-4">
+                    <label asp-for="Description" class="form-label me-2"></label>
+                    <div class="error d-flex flex-column">
+                        <input type="text" class="form-control" asp-for="Description"/>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                </div>
+            <div class="ChefId d-flex mt-4 mb-4 align-items-center">
+               <label asp-for="ChefId" class="form-label me-2"></label>
+               <div class="error d-flex flex-column">
+                  <select class="form-select" id="ChefId" asp-for="ChefId">
+                     <option selected disabled>Select a value!</option>
+                     @foreach (var chef in ViewBag.SelectingChefs)
+                     {
+                     <option value="@chef.ChefId">@chef.FirstName @chef.LastName</option>
+                     }
+                  </select>
+                  <span asp-validation-for="ChefId" class="text-danger"></span>
+               </div>
+            </div>
+            <div class="Tastiness d-flex mt-4 mb-4 align-items-center">
+               <label asp-for="Tastiness" class="form-label me-2"></label>
+               <div class="error d-flex flex-column">
+                    <select class="form-select" id="Tastiness" asp-for="Tastiness">
+                        <option selected disabled>Select a value!</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                  <span asp-validation-for="Tastiness" class="text-danger"></span>
+               </div>
+            </div>
+            <div class="d-flex justify-content-center">
+               <button type="submit" class="btn btn-danger w-50">Submit</button>
+            </div>
+         </form>
+      </div>
+   </body>
+</html>
