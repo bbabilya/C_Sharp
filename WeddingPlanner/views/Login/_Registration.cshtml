@@ -1,0 +1,43 @@
+@model User
+<form asp-action="UserSubmit" asp-controller="Login" method="post">
+                <h2>Register</h2>
+            <div class="FirstName d-flex align-items-center mt-4 mb-4">
+                <label asp-for="FirstName" class="form-label"></label>
+                <div class="error d-flex flex-column">
+                    <input type="text" class="form-control ms-2" asp-for="FirstName" style="width:210px;" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="LastName d-flex align-items-center">
+                <label asp-for="LastName" class="form-label me-2"></label>
+                <div class="error d-flex flex-column">
+                    <input type="text" class="form-control" asp-for="LastName"/>
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="Email d-flex mt-4 mb-4 align-items-center">
+                <label asp-for="Email" class="form-label me-2"></label>
+                <div class="error d-flex flex-column">
+                    <input type="text" class="form-control ms-4" id="Email" asp-for="Email" style="width:220px;">
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="Password d-flex mt-4 mb-4 align-items-center">
+                <label asp-for="Password" class="form-label"></label>
+            <div class="error d-flex flex-column">
+                    <input type="password" class="form-control ms-2" asp-for="Password">
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="ConfirmPassword d-flex mt-4 mb-4 align-items-center">
+                <label asp-for="ConfirmPassword" class="form-label me-2"></label>
+                <div class="error d-flex flex-column">
+                    <input type="password" class="form-control" asp-for="ConfirmPassword" style="width: 200;">
+                    </textarea>
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-danger w-50">Register</button>
+            </div>
+        </form>

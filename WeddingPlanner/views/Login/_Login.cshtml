@@ -1,0 +1,21 @@
+@model LoginUser
+<form asp-action="Login" asp-controller="Login" method="post">
+            <h2>Login</h2>
+            <div class="EmailLogin d-flex mt-4 mb-2 align-items-center">
+                <label asp-for="EmailLogin" class="form-label me-2"></label>
+                <div class="error d-flex flex-column">
+                    <input type="text" class="form-control ms-4" style="width: 220px;" id="EmailLogin" asp-for="EmailLogin">
+                    <span asp-validation-for="EmailLogin" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="PasswordLogin d-flex mt-4 mb-4 align-items-center">
+                <label asp-for="PasswordLogin" class="form-label"></label>
+                <div class="error d-flex flex-column">
+                    <input type="password" class="form-control ms-2" asp-for="PasswordLogin">
+                    <span asp-validation-for="PasswordLogin" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-danger w-50">Login</button>
+            </div>
+        </form>
